@@ -595,13 +595,13 @@ La imagen examinada es la copia definitiva `Adquisición/Imagen2/DISCO.E01`. El 
 
 # 5. Cadena de custodia
 
-El detalle de las evidencias adquiridas se recoge en el [acta de adquisición](acta-adquisicion.pdf). Registrar en el [registro de cadena de custodia](registro-cadena-custodia.pdf) cada transferencia, incluida la entrega al compañero y la devolución, con fechas, horas, responsables y firmas.
+El detalle de las evidencias adquiridas se recoge en el [acta de adquisición](acta-adquisicion.pdf). Registrar en el [registro de cadena de custodia](registro-cadena-custodia.pdf) cada transferencia, incluida la entrega al compañero y la devogitlución, con fechas, horas, responsables y firmas.
 
 Entrega a Luis Baena Utrera (09/11, 10:00): le paso la carpeta de entrega y le comunico por separado el SHA-256 de `hashes/hashes.sha256`. Generé el manifiesto desde la raíz de la carpeta con todos sus archivos, excepto el propio manifiesto. En la carpeta disponible para esta entrega hay 36 archivos que verificar; los 376 indicados anteriormente no corresponden a los archivos presentes ahora.
 
     sha256sum -c hashes/hashes.sha256 → 36 OK, 0 errores.
     Firmamos la entrega en el registro de custodia.
 
-Devolución (09/11, 00:00): Luis me devuelve la carpeta. Vuelvo a ejecutar `sha256sum -c hashes/hashes.sha256` → 36 OK, 0 errores. Firmamos la devolución.
+Devolución (09/11, 12:00): Luis me devuelve la carpeta. Vuelvo a ejecutar `sha256sum -c hashes/hashes.sha256` → 36 OK, 0 errores. Firmamos la devolución.
 
 Por qué: la entrega con hashes.sha256 permite que quien recibe compruebe por sí mismo que no ha cambiado nada, y pasar el hash del listado por otro canal impide que alguien cambie una evidencia y el listado a la vez. Cada traspaso queda firmado en el registro, sin huecos desde la adquisición hasta la devolución.
