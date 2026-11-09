@@ -10,8 +10,8 @@
 
 # 1. Colocación de la marca del investigador
 
-**Hora de inicio:** [10:57]
-**Hora de finalización:** [11:02]
+**Hora de inicio:** [10:57] (hora local UTC+01:00).
+**Hora de finalización:** [11:02] (hora local UTC+01:00).
 
 **Marca utilizada:** `AFI-RaulToledo-20261108`
 
@@ -34,8 +34,8 @@
 
 ## 2.1 Documentación del estado inicial
 
-**Hora de inicio:** [11:04]
-**Hora de finalización:** [11:04]
+**Hora de inicio:** [11:04] (hora local UTC+01:00).
+**Hora de finalización:** [11:04] (hora local UTC+01:00).
 
 ### Procedimiento
 
@@ -58,8 +58,8 @@
 
 ## 2.2 Adquisición de la memoria RAM
 
-**Hora de inicio:** [11:05]
-**Hora de finalización:** [12:12]
+**Hora de inicio:** [11:05] (hora local UTC+01:00).
+**Hora de finalización:** [12:12] (hora local UTC+01:00).
 
 La hora exacta de adquisición no se puede fijar con las evidencias disponibles.
 
@@ -99,7 +99,7 @@ Se utilizó para adquirir en vivo la memoria física del sistema Windows 7 de 64
 
 ## 2.3 Recogida de datos volátiles
 
-**Hora de inicio:** [12:45:16]
+**Hora de inicio:** [12:45:16] (hora local UTC+01:00).
 **Hora de finalización:** [12:45:26] (hora local UTC+01:00).
 
 ### Herramienta utilizada
@@ -142,8 +142,8 @@ La política de ejecución bloqueó el primer intento. El script original no era
 
 ## 2.4 Captura del tráfico de red
 
-**Hora de inicio:** [12:54]
-**Hora de finalización:** [12:58]
+**Hora de inicio:** [12:54] (hora local UTC+01:00).
+**Hora de finalización:** [12:58] (hora local UTC+01:00).
 
 ### Herramienta utilizada
 
@@ -175,8 +175,8 @@ VBoxManage controlvm "FORENSIC_10" nictrace1 off
 
 ## 2.5 Adquisición del triaje
 
-**Hora de inicio:** [14:50]
-**Hora de finalización:** [15:31]
+**Hora de inicio:** [14:50] (hora local UTC+01:00).
+**Hora de finalización:** [15:31] (hora local UTC+01:00).
 
 ### Herramienta utilizada
 
@@ -292,8 +292,8 @@ findstr /s /i /m "AFI-RaulToledo-20261108" D:\Salida\*.txt
 
 ## 2.6 Comprobación del cifrado
 
-**Hora de inicio:** [15:55]
-**Hora de finalización:** [15:55]
+**Hora de inicio:** [15:55] (hora local UTC+01:00).
+**Hora de finalización:** [15:55] (hora local UTC+01:00).
 
 ### Herramienta utilizada
 
@@ -341,8 +341,8 @@ Ninguna. La herramienta completó las comprobaciones correctamente.
 
 ## 2.7 Apagado del equipo
 
-**Hora de inicio:** [16:07]
-**Hora de finalización:** [16:07]
+**Hora de inicio:** [16:07] (hora local UTC+01:00).
+**Hora de finalización:** [16:07] (hora local UTC+01:00).
 
 ### Motivo de elección
 
@@ -384,8 +384,8 @@ Se eligió el apagado normal porque las adquisiciones en vivo ya habían finaliz
 
 Fue necesario realizar una segunda adquisición, este apartado documenta únicamente la imagen definitiva, de ahí el desfase horario con los siguientes pasos.
 
-**Hora de inicio:** [20:35:31]
-**Hora de finalización:** [20:38:03]
+**Hora de inicio:** [20:35:31] (hora local UTC+01:00).
+**Hora de finalización:** [20:38:03] (hora local UTC+01:00).
 
 ### Documentación de la máquina
 
@@ -435,8 +435,8 @@ FTK Imager permite adquirir el disco virtual apagado en formato E01 y verificar 
 
 ## 3.2 Adquisición del pendrive encontrado
 
-**Hora de inicio:** [17:34:57]
-**Hora de finalización:** [18:11:11] (08/11/2026, hora local UTC+01:00).
+**Hora de inicio:** [17:34:57] (hora local UTC+01:00).
+**Hora de finalización:** [18:11:11] (hora local UTC+01:00).
 
 La verificación de FTK finalizó a las 18:15:35.
 
@@ -597,11 +597,11 @@ La imagen examinada es la copia definitiva `Adquisición/Imagen2/DISCO.E01`. El 
 
 El detalle de las evidencias adquiridas se recoge en el [acta de adquisición](acta-adquisicion.pdf). Registrar en el [registro de cadena de custodia](registro-cadena-custodia.pdf) cada transferencia, incluida la entrega al compañero y la devogitlución, con fechas, horas, responsables y firmas.
 
-Entrega a Luis Baena Utrera (09/11, 10:00): le paso la carpeta de entrega y le comunico por separado el SHA-256 de `hashes/hashes.sha256`. Generé el manifiesto desde la raíz de la carpeta con todos sus archivos, excepto el propio manifiesto. En la carpeta disponible para esta entrega hay 36 archivos que verificar; los 376 indicados anteriormente no corresponden a los archivos presentes ahora.
+Entrega a Luis Baena Utrera (10/11, 10:00 (hora local UTC+01:00).): le paso la carpeta de entrega y le comunico por separado el SHA-256 de `hashes/hashes.sha256`. Generé el manifiesto desde la raíz de la carpeta con todos sus archivos, excepto el propio manifiesto. En la carpeta disponible para esta entrega hay 36 archivos que verificar; los 376 indicados anteriormente no corresponden a los archivos presentes ahora.
 
     sha256sum -c hashes/hashes.sha256 → 36 OK, 0 errores.
     Firmamos la entrega en el registro de custodia.
 
-Devolución (09/11, 12:00): Luis me devuelve la carpeta. Vuelvo a ejecutar `sha256sum -c hashes/hashes.sha256` → 36 OK, 0 errores. Firmamos la devolución.
+Devolución (10/11, 12:00 (hora local UTC+01:00).): Luis me devuelve la carpeta. Vuelvo a ejecutar `sha256sum -c hashes/hashes.sha256` → 36 OK, 0 errores. Firmamos la devolución.
 
 Por qué: la entrega con hashes.sha256 permite que quien recibe compruebe por sí mismo que no ha cambiado nada, y pasar el hash del listado por otro canal impide que alguien cambie una evidencia y el listado a la vez. Cada traspaso queda firmado en el registro, sin huecos desde la adquisición hasta la devolución.
