@@ -1,8 +1,8 @@
 ﻿Created By Exterro® FTK® Imager 8.3.0.27 
 
 Case Information: 
-Case Number: DISCO
-Evidence Number:  
+Case Number: 001
+Evidence Number: 001
 Unique Description: 
 Examiner:  
 Notes:  
@@ -17,12 +17,12 @@ Installed RAM: 16 GB
 
 --------------------------------------------------------------
 
-Information for C:\Users\Raúl\Desktop\DISCO:
+Information for C:\Users\Raúl\Desktop\Salida\DiscoUSB\DISCO:
     Source data size: 32768 MB
     Sector count:    67108864
   [Computed Hashes]
-    MD5 Hash:    2b780c8459f160fd8a94a7516f5ddf44
-    SHA1 Hash:   e3a4429a09ea8f22dc703559a891c4207869104a
+    MD5 Hash:    49f144830caa854fefdd2279bd7cc717
+    SHA1 Hash:   02f531304ac928d247fa139cdf1d8f282d3178b5
 
 Verification Definitions:
   Computed hash: The hash calculated of the source media during the creation or verify process
@@ -30,20 +30,20 @@ Verification Definitions:
   Report hash: The hash calculated during image acquisition and stored in the image summary report
 
 Image Information:
-  Acquisition started:   Sun Nov  8 20:35:31 2026 (2026-11-08T19:35:31Z)
-  Acquisition finished:  Sun Nov  8 20:38:03 2026 (2026-11-08T19:38:03Z)
+  Acquisition started:   Wed Nov 11 10:18:12 2026 (2026-11-11T09:18:12Z)
+  Acquisition finished:  Wed Nov 11 10:20:26 2026 (2026-11-11T09:20:26Z)
   Segment list:
-    C:\Users\Raúl\Desktop\DISCO.E01
-    C:\Users\Raúl\Desktop\DISCO.E02
-    C:\Users\Raúl\Desktop\DISCO.E03
-    C:\Users\Raúl\Desktop\DISCO.E04
+    C:\Users\Raúl\Desktop\Salida\DiscoUSB\DISCO.E01
+    C:\Users\Raúl\Desktop\Salida\DiscoUSB\DISCO.E02
+    C:\Users\Raúl\Desktop\Salida\DiscoUSB\DISCO.E03
+    C:\Users\Raúl\Desktop\Salida\DiscoUSB\DISCO.E04
 
 Image Verification Results:
-  Verification started:  Sun Nov  8 20:38:03 2026 (2026-11-08T19:38:03Z)
-  Verification finished: Sun Nov  8 20:39:48 2026 (2026-11-08T19:39:48Z)
-  MD5 - Computed hash:             2b780c8459f160fd8a94a7516f5ddf44 : verified
-  MD5 - Stored verification hash:  2b780c8459f160fd8a94a7516f5ddf44 : verified
-  MD5 - Report hash:               2b780c8459f160fd8a94a7516f5ddf44 : verified
-  SHA1 - Computed hash:            e3a4429a09ea8f22dc703559a891c4207869104a : verified
-  SHA1 - Stored verification hash: e3a4429a09ea8f22dc703559a891c4207869104a : verified
-  SHA1 - Report hash:              e3a4429a09ea8f22dc703559a891c4207869104a : verified
+  Verification started:  Wed Nov 11 10:20:26 2026 (2026-11-11T09:20:26Z)
+  Verification finished: Wed Nov 11 10:22:09 2026 (2026-11-11T09:22:09Z)
+  MD5 - Computed hash:             49f144830caa854fefdd2279bd7cc717 : verified
+  MD5 - Stored verification hash:  49f144830caa854fefdd2279bd7cc717 : verified
+  MD5 - Report hash:               49f144830caa854fefdd2279bd7cc717 : verified
+  SHA1 - Computed hash:            02f531304ac928d247fa139cdf1d8f282d3178b5 : verified
+  SHA1 - Stored verification hash: 02f531304ac928d247fa139cdf1d8f282d3178b5 : verified
+  SHA1 - Report hash:              02f531304ac928d247fa139cdf1d8f282d3178b5 : verified

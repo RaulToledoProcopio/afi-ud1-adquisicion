@@ -1,8 +1,8 @@
 ﻿Created By Exterro® FTK® Imager 8.3.0.27 
 
 Case Information: 
-Case Number: AFI-USB
-Evidence Number: 001
+Case Number: 001
+Evidence Number: 002
 Unique Description: 
 Examiner:  
 Notes:  
@@ -17,7 +17,7 @@ Installed RAM: 16 GB
 
 --------------------------------------------------------------
 
-Information for C:\Users\Raúl\Desktop\USB:
+Information for C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB:
 
 Physical Evidentiary Item (Source) Information:
   [Device Info]
@@ -36,8 +36,8 @@ Physical Evidentiary Item (Source) Information:
     Source data size: 59120 MB
     Sector count:    121077760
   [Computed Hashes]
-    MD5 Hash:    62e7cb4b67bed558b6189dc32124aaa3
-    SHA1 Hash:   eca39eff684c900ee38991f37b73bc2224e57b17
+    MD5 Hash:    941a072ad85e1d5cc13cbbe5d4f83247
+    SHA1 Hash:   e40e3bc70ac29761157aea2b7e9b96a41b11b5e3
 
 Verification Definitions:
   Computed hash: The hash calculated of the source media during the creation or verify process
@@ -45,55 +45,54 @@ Verification Definitions:
   Report hash: The hash calculated during image acquisition and stored in the image summary report
 
 Image Information:
-  Acquisition started:   Sun Nov  8 17:34:57 2026 (2026-11-08T16:34:57Z)
-  Acquisition finished:  Sun Nov  8 18:11:11 2026 (2026-11-08T17:11:11Z)
+  Acquisition started:   Wed Nov 11 11:31:14 2026 (2026-11-11T10:31:14Z)
+  Acquisition finished:  Wed Nov 11 12:07:06 2026 (2026-11-11T11:07:06Z)
   Segment list:
-    C:\Users\Raúl\Desktop\USB.E01
-    C:\Users\Raúl\Desktop\USB.E02
-    C:\Users\Raúl\Desktop\USB.E03
-    C:\Users\Raúl\Desktop\USB.E04
-    C:\Users\Raúl\Desktop\USB.E05
-    C:\Users\Raúl\Desktop\USB.E06
-    C:\Users\Raúl\Desktop\USB.E07
-    C:\Users\Raúl\Desktop\USB.E08
-    C:\Users\Raúl\Desktop\USB.E09
-    C:\Users\Raúl\Desktop\USB.E10
-    C:\Users\Raúl\Desktop\USB.E11
-    C:\Users\Raúl\Desktop\USB.E12
-    C:\Users\Raúl\Desktop\USB.E13
-    C:\Users\Raúl\Desktop\USB.E14
-    C:\Users\Raúl\Desktop\USB.E15
-    C:\Users\Raúl\Desktop\USB.E16
-    C:\Users\Raúl\Desktop\USB.E17
-    C:\Users\Raúl\Desktop\USB.E18
-    C:\Users\Raúl\Desktop\USB.E19
-    C:\Users\Raúl\Desktop\USB.E20
-    C:\Users\Raúl\Desktop\USB.E21
-    C:\Users\Raúl\Desktop\USB.E22
-    C:\Users\Raúl\Desktop\USB.E23
-    C:\Users\Raúl\Desktop\USB.E24
-    C:\Users\Raúl\Desktop\USB.E25
-    C:\Users\Raúl\Desktop\USB.E26
-    C:\Users\Raúl\Desktop\USB.E27
-    C:\Users\Raúl\Desktop\USB.E28
-    C:\Users\Raúl\Desktop\USB.E29
-    C:\Users\Raúl\Desktop\USB.E30
-    C:\Users\Raúl\Desktop\USB.E31
-    C:\Users\Raúl\Desktop\USB.E32
-    C:\Users\Raúl\Desktop\USB.E33
-    C:\Users\Raúl\Desktop\USB.E34
-    C:\Users\Raúl\Desktop\USB.E35
-    C:\Users\Raúl\Desktop\USB.E36
-    C:\Users\Raúl\Desktop\USB.E37
-    C:\Users\Raúl\Desktop\USB.E38
-    C:\Users\Raúl\Desktop\USB.E39
+    C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB.E01
+    C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB.E02
+    C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB.E03
+    C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB.E04
+    C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB.E05
+    C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB.E06
+    C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB.E07
+    C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB.E08
+    C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB.E09
+    C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB.E10
+    C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB.E11
+    C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB.E12
+    C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB.E13
+    C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB.E14
+    C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB.E15
+    C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB.E16
+    C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB.E17
+    C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB.E18
+    C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB.E19
+    C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB.E20
+    C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB.E21
+    C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB.E22
+    C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB.E23
+    C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB.E24
+    C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB.E25
+    C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB.E26
+    C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB.E27
+    C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB.E28
+    C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB.E29
+    C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB.E30
+    C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB.E31
+    C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB.E32
+    C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB.E33
+    C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB.E34
+    C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB.E35
+    C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB.E36
+    C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB.E37
+    C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB.E38
 
 Image Verification Results:
-  Verification started:  Sun Nov  8 18:11:11 2026 (2026-11-08T17:11:11Z)
-  Verification finished: Sun Nov  8 18:15:35 2026 (2026-11-08T17:15:35Z)
-  MD5 - Computed hash:             62e7cb4b67bed558b6189dc32124aaa3 : verified
-  MD5 - Stored verification hash:  62e7cb4b67bed558b6189dc32124aaa3 : verified
-  MD5 - Report hash:               62e7cb4b67bed558b6189dc32124aaa3 : verified
-  SHA1 - Computed hash:            eca39eff684c900ee38991f37b73bc2224e57b17 : verified
-  SHA1 - Stored verification hash: eca39eff684c900ee38991f37b73bc2224e57b17 : verified
-  SHA1 - Report hash:              eca39eff684c900ee38991f37b73bc2224e57b17 : verified
+  Verification started:  Wed Nov 11 12:07:06 2026 (2026-11-11T11:07:06Z)
+  Verification finished: Wed Nov 11 12:11:25 2026 (2026-11-11T11:11:25Z)
+  MD5 - Computed hash:             941a072ad85e1d5cc13cbbe5d4f83247 : verified
+  MD5 - Stored verification hash:  941a072ad85e1d5cc13cbbe5d4f83247 : verified
+  MD5 - Report hash:               941a072ad85e1d5cc13cbbe5d4f83247 : verified
+  SHA1 - Computed hash:            e40e3bc70ac29761157aea2b7e9b96a41b11b5e3 : verified
+  SHA1 - Stored verification hash: e40e3bc70ac29761157aea2b7e9b96a41b11b5e3 : verified
+  SHA1 - Report hash:              e40e3bc70ac29761157aea2b7e9b96a41b11b5e3 : verified
