@@ -27,6 +27,7 @@
 
 - [Captura del Bloc de notas con la marca](capturas/Marca1.png)
 - [Captura del archivo de marca en el escritorio](capturas/Marca2.png)
+- [Captura del Bloc de notas con la marca en el USB](capturas/Marca3.png)
 
 ---
 
@@ -428,6 +429,7 @@ FTK Imager permite adquirir el disco virtual apagado en formato E01 y verificar 
 - La verificación de FTK fue correcta: MD5 `2b780c8459f160fd8a94a7516f5ddf44` y SHA-1 `e3a4429a09ea8f22dc703559a891c4207869104a` coinciden con los hashes almacenados en la imagen y en el informe.
 - El manifiesto de SHA-256 de los segmentos está también en `hashes/hashes-imagenes-sha256.txt`.
 - Se calcularon los SHA-256 del VDI, la configuración `.vbox` y los registros de VirtualBox incluidos en `Adquisición/Imagen 2.1`; los resultados están en [hashes/FORENSIC_10-hashes-Imagen2.1.txt](hashes/FORENSIC_10-hashes-Imagen2.1.txt). La copia coincide con los archivos actuales de la carpeta de la máquina virtual.
+
 ### Evidencias
 
 - [Captura del proceso de adquisición de la imagen definitiva y su verificación](capturas/disco.png).
@@ -467,6 +469,11 @@ FTK Imager permitió adquirir el dispositivo físico en formato E01 y verificar 
 ### Configuración y comandos utilizados
 
 La adquisición se configuró mediante las interfaces de la utilidad de bloqueo USB y FTK Imager. No se conserva un comando de consola literal para estas operaciones. El registro `hashes/bloqueo-usb.log` consigna la activación de `WriteProtect=1` a las 17:31:04 y su desactivación (`WriteProtect=0`) a las 18:22:02.
+
+### Evidencias
+
+- [Captura del proceso de adquisición de la imagen del USB y su verificación](capturas/usb1.png).
+- [Captura de la imagen abierta en FTK Imager las dos particiones](capturas/usb2.png).
 
 ### Resultado y observaciones
 
