@@ -3,7 +3,6 @@
 fc9dbe361b04f8460420f0c0c0ab8566f93be9d777e42762b2f8ecb3aeb24970  ./capturas/bloqueo.png
 2ef97f0aacc0498357f3819eb545efa4c456147eb7f0f29096d4031b2504a77d  ./capturas/bloqueo2.png
 d9139e859356e58172aedb552e658b39d13be82ee1e0cb10f2bef32b296ebcd6  ./capturas/bloqueo3.png
-b9d47250dc420c44345aecd2e1d6fc093aac49164a94b78b1c7964efed60103a  ./capturas/bloqueo4.png
 0ecd45b28f098f80cbb61e58afd2baebec4dde5a6a24f3aec21cda3e65e9d589  ./capturas/cifrado.png
 013bbae65dda57a2f31b04002ccebecce81f131d21d56ecc4e9f69ebc6a7e72b  ./capturas/disco.png
 8df71143987e74a8943b29c151dc018d1c6190eef0503df477e8e08b1f4bb1ed  ./capturas/disco2.png

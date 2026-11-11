@@ -381,12 +381,12 @@ Se eligió el apagado normal porque las adquisiciones en vivo ya habían finaliz
 
 # 3. Adquisición post-mortem
 
-## 3.1 Adquisición del disco de la máquina virtual: imagen definitiva
+## 3.1 Adquisición del disco de la máquina virtual: imagen definitiva (11/11/)
 
-Fue necesario realizar una segunda adquisición, este apartado documenta únicamente la imagen definitiva, de ahí el desfase horario con los siguientes pasos.
+### Fue necesario realizar una segunda adquisición, este apartado documenta únicamente la imagen definitiva, de ahí el desfase horario y de fecha con los siguientes pasos. Todo está reflejado en el acta de adquisición.
 
-**Hora de inicio:** [16:25] (hora local UTC+01:00).
-**Hora de finalización:** [17:05] (hora local UTC+01:00).
+**Hora de inicio:** [10:18] (hora local UTC+01:00).
+**Hora de finalización:** [10:20] (hora local UTC+01:00).
 
 ### Documentación de la máquina
 
@@ -413,34 +413,32 @@ FTK Imager permite adquirir el disco virtual apagado en formato E01 y verificar 
 2. Creé la imagen definitiva con el nombre `DISCO.E01`, en formato E01.
 3. Activé la verificación de la imagen tras su creación.
 4. Comprobé que la adquisición y la verificación finalizaron correctamente.
-5. Conservé la imagen y el informe de FTK en `Adquisición/Imagen2/`.
+5. Generé la imagen en `C:\Users\Raúl\Desktop\Salida\DiscoUSB`; el informe de FTK se conserva en `hashes/DISCO.E01.txt`.
 
 ### Resultado y observaciones
 
-- Imagen definitiva: `Adquisición/Imagen2/DISCO.E01`–`DISCO.E04`.
-- Tamaños de los segmentos: E01, 1.572.759.180 bytes; E02, 1.572.786.435 bytes; E03, 1.572.792.018 bytes; E04, 464.183.418 bytes.
-- Tamaño total: 5.182.523.097 bytes.
+- Imagen : `DISCO.E01`–`DISCO.E04`, en `C:\Users\Raúl\Desktop\Salida\DiscoUSB`.
 - SHA-256 por segmento:
 
-  - `DISCO.E01`: `314B99B57F70EAC829E4F8530DA5FF54EA52F0D645006261E8F2F01B527639D2`
-  - `DISCO.E02`: `482C3CE9ABD7F571526CC8124CD73B764C50C5A2E13760765B0E0F9CCAE48E46`
-  - `DISCO.E03`: `FFF494DF6D44FC6078DC4CDFD62C83C62E7C162F206FD9C80DFF798FA7871700`
-  - `DISCO.E04`: `9339E4AB11FD5D5D6C8A8B4C02A9FCADB8CE149C2E9D24B85D3B6B33DBFC44D3`
-- La verificación de FTK fue correcta: MD5 `2b780c8459f160fd8a94a7516f5ddf44` y SHA-1 `e3a4429a09ea8f22dc703559a891c4207869104a` coinciden con los hashes almacenados en la imagen y en el informe.
-- El manifiesto de SHA-256 de los segmentos está también en `hashes/hashes-imagenes-sha256.txt`.
-- Se calcularon los SHA-256 del VDI, la configuración `.vbox` y los registros de VirtualBox incluidos en `Adquisición/Imagen 2.1`; los resultados están en [hashes/FORENSIC_10-hashes-Imagen2.1.txt](hashes/FORENSIC_10-hashes-Imagen2.1.txt). La copia coincide con los archivos actuales de la carpeta de la máquina virtual.
+  - `DISCO.E01`: `327faaefbe7d3a4618fdca6e286ef470efb059e60740174602021e86d6099092`
+  - `DISCO.E02`: `2aef466625f5646e73a20723837cba48af5fa42fc0c312bdbf3bed93a674b605`
+  - `DISCO.E03`: `2655d4c58a24838a435c18dfa00392f6bed3eeab2952befd28c3a598f6b86dae`
+  - `DISCO.E04`: `e185a17db23262e00257d1c315c437230d3636f4603c7a6d0518386d9cf65283`
+- La verificación de FTK fue correcta: MD5 `49f144830caa854fefdd2279bd7cc717` y SHA-1 `02f531304ac928d247fa139cdf1d8f282d3178b5` coinciden con los hashes almacenados en la imagen y en el informe.
+- El manifiesto de SHA-256 de los segmentos está en [hashes/hashes-imagenes-disco.txt](hashes/hashes-imagenes-disco.txt); su SHA-256 es `7621C34448AFB1E9B4904894B49308CC0EF4620C55EE24BBAAB26DDCFDB167BB`.
+- Los SHA-256 de los ficheros de VirtualBox (VDI, configuración `.vbox` y registros) están en [hashes/FORENSIC_10-hashes-Imagen.txt](hashes/FORENSIC_10-hashes-Imagen.txt).
 
 ### Evidencias
 
 - [Captura del proceso de adquisición de la imagen definitiva y su verificación](capturas/disco.png).
 - [Captura de la imagen abierta en FTK Imager mostrando las dos particiones](capturas/disco2.png).
 
-## 3.2 Adquisición del pendrive encontrado
+## 3.2 Adquisición del pendrive encontrado : imagen definitiva (11/11/)
 
-**Hora de inicio:** [17:34:57] (hora local UTC+01:00).
-**Hora de finalización:** [18:11:11] (hora local UTC+01:00).
+### Fue necesario realizar una segunda adquisición, este apartado documenta únicamente la imagen definitiva, de ahí el desfase horario y de fecha con los siguientes pasos. Todo está reflejado en el acta de adquisición.
 
-La verificación de FTK finalizó a las 18:15:35.
+**Hora de inicio:** [15:22:45] (hora local UTC+01:00).
+**Hora de finalización:** [15:58:52] (hora local UTC+01:00).
 
 ### Identificación del dispositivo
 
@@ -468,7 +466,7 @@ FTK Imager permitió adquirir el dispositivo físico en formato E01 y verificar 
 
 ### Configuración y comandos utilizados
 
-La adquisición se configuró mediante las interfaces de la utilidad de bloqueo USB y FTK Imager. No se conserva un comando de consola literal para estas operaciones. El registro `hashes/bloqueo-usb.log` consigna la activación de `WriteProtect=1` a las 17:31:04 y su desactivación (`WriteProtect=0`) a las 18:22:02.
+La adquisición se configuró mediante las interfaces de la utilidad de bloqueo USB y FTK Imager. Se realiza a través de interfaz gráfica. 
 
 ### Evidencias
 
@@ -480,10 +478,9 @@ La adquisición se configuró mediante las interfaces de la utilidad de bloqueo 
 - Dispositivo adquirido: Kingston DataTraveler 70 USB, unidad física.
 - Tamaño de origen: 59.120 MB; 121.077.760 sectores de 512 bytes.
 - Bloqueo de escritura: la política global por software estaba activada antes de la adquisición, según el registro.
-- Imagen generada: `Adquisición/USB.E01`–`USB.E39`, formato E01.
-- Tamaño total de los 39 segmentos: 60.318.665.825 bytes.
-- SHA-256: calculado individualmente para cada segmento; los 39 valores están en `hashes/hashes-imagenes-sha256.txt`. No se calculó un único SHA-256 agregado de toda la imagen.
-- Hashes del soporte calculados por FTK: MD5 `62e7cb4b67bed558b6189dc32124aaa3` y SHA-1 `eca39eff684c900ee38991f37b73bc2224e57b17`.
+- Imagen generada: `USB.E01`–`USB.E38`, formato E01 (38 segmentos).
+- SHA-256: calculado individualmente para cada segmento; los 38 valores están en [hashes/hashes-imagenes-usb.txt](hashes/hashes-imagenes-usb.txt). SHA-256 del manifiesto: `334DB0E7DBCB37787DCF830E75778123CC58E713189C624EC0336A4A99828F7C`.
+- Hashes del soporte calculados por FTK: MD5 `a1d9ae86a2dc3f6ea0461993a5ff3dae` y SHA-1 `fb8f71dbd1f1f8482871b473a974e971e5cc63cd`.
 - Verificación: correcta; los hashes calculados, almacenados y del informe coinciden.
 - Registro de bloqueo: `hashes/bloqueo-usb.log`.
 - Incidencias: el número de serie no puede recuperarse de forma fiable del informe FTK.
@@ -494,7 +491,8 @@ La adquisición se configuró mediante las interfaces de la utilidad de bloqueo 
 - [Captura de activación del bloqueo de escritura](capturas/bloqueo.png)
 - [Captura de comprobación PROTEGIDO](capturas/bloqueo2.png)
 - [Captura de selección del dispositivo en FTK Imager](capturas/bloqueo3.png)
-- [Captura de adquisición del pendrive](capturas/bloqueo4.png)
+- [Captura del proceso de adquisición de la imagen del USB y su verificación](capturas/usb1.png).
+- [Captura de la imagen abierta en FTK Imager las dos particiones](capturas/usb2.png).
 
 ---
 
@@ -549,7 +547,7 @@ La búsqueda inicial con `findstr` se limitó a los archivos TXT del triaje y no
 
 ### 4.3 Comprobación en la imagen del disco
 
-La imagen examinada es la copia definitiva `Adquisición/Imagen2/DISCO.E01`. El informe de FTK registra el inicio a las 20:35:31, el fin de adquisición a las 20:38:03 y el fin de verificación a las 20:39:48 del 08/11/2026 (hora local UTC+01:00). La imagen se examinó en modo de solo lectura.
+La imagen examinada es `DISCO.E01` de `C:\Users\Raúl\Desktop\Salida\DiscoUSB`. La imagen se examinó en modo de solo lectura.
 
 #### Procedimiento
 
@@ -560,7 +558,7 @@ La imagen examinada es la copia definitiva `Adquisición/Imagen2/DISCO.E01`. El 
 
 #### Resultado
 
-- Imagen examinada: `Adquisición/Imagen2/DISCO.E01` (segmentos `.E01`–`.E04`).
+- Imagen examinada: `C:\Users\Raúl\Desktop\Salida\DiscoUSB\DISCO.E01` (segmentos `.E01`–`.E04`).
 - Verificación de FTK Imager: correcta; MD5 y SHA-1 calculados, almacenados y del informe aparecen como verificados.
 - Archivo localizado: sí, `/Users/Administrador/Desktop/marca-raultoledo.txt`.
 - Tamaño: 23 bytes.
@@ -576,27 +574,27 @@ La imagen examinada es la copia definitiva `Adquisición/Imagen2/DISCO.E01`. El 
 
 #### Procedimiento
 
-1. Abrí los segmentos `USB.E01`–`USB.E39` como una imagen E01.
+1. Abrí los segmentos `USB.E01`–`USB.E38` como una imagen E01.
 2. Examiné la partición y su sistema de archivos en modo de solo lectura.
 3. Localicé `/marca-raultoledo.txt` y leí su contenido.
 
 #### Resultado
 
-- Imagen examinada: `Adquisición/USB.E01` (segmentos `.E01`–`.E39`).
+- Imagen examinada: `C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB.E01` (segmentos `.E01`–`.E38`).
 - Verificación de FTK Imager: correcta; MD5 y SHA-1 calculados, almacenados y del informe aparecen como verificados.
 - Archivo localizado: sí, `/marca-raultoledo.txt`.
 - Tamaño: 23 bytes.
 - Contenido: `AFI-RaulToledo-20261108`.
-- Observaciones: la marca coincide con la encontrada en la imagen del disco `Imagen2/DISCO.E01`.
+- Observaciones: la marca coincide con la encontrada en la imagen del disco `DISCO.E01`.
 
 ### Resultado general de la comprobación
 
 | Evidencia           | Marca localizada                                              |
 | ------------------- | ------------------------------------------------------------- |
-| Memoria RAM         | Sí: cadena encontrada en ASCII y UTF-16LE                    |
-| Triaje (`$MFT`)   | Sí: cadena de la marca y nombre del archivo encontrados      |
-| Imagen del disco    | Sí: archivo y contenido encontrados en `Imagen2/DISCO.E01` |
-| Imagen del pendrive | Sí: archivo y contenido encontrados en `USB.E01`           |
+| Memoria RAM         | Sí: cadena encontrada en ASCII y UTF-16LE                     |
+| Triaje (`$MFT`)     | Sí: cadena de la marca y nombre del archivo encontrados       |
+| Imagen del disco    | Sí: archivo y contenido encontrados en `DISCO.E01`            |
+| Imagen del pendrive | Sí: archivo y contenido encontrados en `USB.E01`              |
 
 ---
 
@@ -604,11 +602,12 @@ La imagen examinada es la copia definitiva `Adquisición/Imagen2/DISCO.E01`. El 
 
 El detalle de las evidencias adquiridas se recoge en el [acta de adquisición](acta-adquisicion.pdf). Registrar en el [registro de cadena de custodia](registro-cadena-custodia.pdf) cada transferencia, incluida la entrega al compañero y la devogitlución, con fechas, horas, responsables y firmas.
 
-Entrega a Luis Baena Utrera (10/11, 10:00 (hora local UTC+01:00).): le paso la carpeta de entrega y le comunico por separado el SHA-256 de `hashes/hashes.sha256`. Generé el manifiesto desde la raíz de la carpeta con todos sus archivos, excepto el propio manifiesto.
+Entrega a Luis Baena Utrera (11/11, 18:00 (hora local UTC+01:00).): le paso la carpeta de entrega y le comunico por separado el SHA-256 actual de `hashes/hashes.sha256`: `150C08FC75269903696AB67A15492D9097A1F0E32E68C4F86CB5F7935B7095D9`. El manifiesto actual contiene 360 entradas en total.
 
-    sha256sum -c hashes/hashes.sha256 → 337 OK, 0 errores.
+    sha256sum -c hashes/hashes.sha256 → 360 OK, 0 errores.
     Firmamos la entrega en el registro de custodia.
 
-Devolución (10/11, 12:00 (hora local UTC+01:00).): Luis me devuelve la carpeta. Vuelvo a ejecutar `sha256sum -c hashes/hashes.sha256` → 337 OK, 0 errores. Firmamos la devolución.
+Devolución (11/11, 20:00 (hora local UTC+01:00).): Luis me devuelve la carpeta. Vuelvo a ejecutar `sha256sum -c hashes/hashes.sha256` → 360 OK, 0 errores. Firmamos la devolución.
 
-Por qué: la entrega con hashes.sha256 permite que quien recibe compruebe por sí mismo que no ha cambiado nada, y pasar el hash del listado por otro canal impide que alguien cambie una evidencia y el listado a la vez. Cada traspaso queda firmado en el registro, sin huecos desde la adquisición hasta la devolución.
+
+¿Por qué? La entrega con hashes.sha256 permite que quien recibe compruebe por sí mismo que no ha cambiado nada, y pasar el hash del listado por otro canal impide que alguien cambie una evidencia y el listado a la vez. Cada traspaso queda firmado en el registro, sin huecos desde la adquisición hasta la devolución.

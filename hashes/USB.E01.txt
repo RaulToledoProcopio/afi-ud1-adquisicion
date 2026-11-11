@@ -17,7 +17,7 @@ Installed RAM: 16 GB
 
 --------------------------------------------------------------
 
-Information for C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB:
+Information for C:\Users\Raúl\Desktop\Adquisicion\Salida\DiscoUSB\USB:
 
 Physical Evidentiary Item (Source) Information:
   [Device Info]
@@ -36,8 +36,8 @@ Physical Evidentiary Item (Source) Information:
     Source data size: 59120 MB
     Sector count:    121077760
   [Computed Hashes]
-    MD5 Hash:    941a072ad85e1d5cc13cbbe5d4f83247
-    SHA1 Hash:   e40e3bc70ac29761157aea2b7e9b96a41b11b5e3
+    MD5 Hash:    a1d9ae86a2dc3f6ea0461993a5ff3dae
+    SHA1 Hash:   fb8f71dbd1f1f8482871b473a974e971e5cc63cd
 
 Verification Definitions:
   Computed hash: The hash calculated of the source media during the creation or verify process
@@ -45,54 +45,54 @@ Verification Definitions:
   Report hash: The hash calculated during image acquisition and stored in the image summary report
 
 Image Information:
-  Acquisition started:   Wed Nov 11 11:31:14 2026 (2026-11-11T10:31:14Z)
-  Acquisition finished:  Wed Nov 11 12:07:06 2026 (2026-11-11T11:07:06Z)
+  Acquisition started:   Wed Nov 11 15:22:45 2026 (2026-11-11T14:22:45Z)
+  Acquisition finished:  Wed Nov 11 15:58:52 2026 (2026-11-11T14:58:52Z)
   Segment list:
-    C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB.E01
-    C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB.E02
-    C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB.E03
-    C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB.E04
-    C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB.E05
-    C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB.E06
-    C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB.E07
-    C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB.E08
-    C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB.E09
-    C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB.E10
-    C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB.E11
-    C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB.E12
-    C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB.E13
-    C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB.E14
-    C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB.E15
-    C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB.E16
-    C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB.E17
-    C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB.E18
-    C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB.E19
-    C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB.E20
-    C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB.E21
-    C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB.E22
-    C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB.E23
-    C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB.E24
-    C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB.E25
-    C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB.E26
-    C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB.E27
-    C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB.E28
-    C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB.E29
-    C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB.E30
-    C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB.E31
-    C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB.E32
-    C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB.E33
-    C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB.E34
-    C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB.E35
-    C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB.E36
-    C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB.E37
-    C:\Users\Raúl\Desktop\Salida\DiscoUSB\USB.E38
+    C:\Users\Raúl\Desktop\Adquisicion\Salida\DiscoUSB\USB.E01
+    C:\Users\Raúl\Desktop\Adquisicion\Salida\DiscoUSB\USB.E02
+    C:\Users\Raúl\Desktop\Adquisicion\Salida\DiscoUSB\USB.E03
+    C:\Users\Raúl\Desktop\Adquisicion\Salida\DiscoUSB\USB.E04
+    C:\Users\Raúl\Desktop\Adquisicion\Salida\DiscoUSB\USB.E05
+    C:\Users\Raúl\Desktop\Adquisicion\Salida\DiscoUSB\USB.E06
+    C:\Users\Raúl\Desktop\Adquisicion\Salida\DiscoUSB\USB.E07
+    C:\Users\Raúl\Desktop\Adquisicion\Salida\DiscoUSB\USB.E08
+    C:\Users\Raúl\Desktop\Adquisicion\Salida\DiscoUSB\USB.E09
+    C:\Users\Raúl\Desktop\Adquisicion\Salida\DiscoUSB\USB.E10
+    C:\Users\Raúl\Desktop\Adquisicion\Salida\DiscoUSB\USB.E11
+    C:\Users\Raúl\Desktop\Adquisicion\Salida\DiscoUSB\USB.E12
+    C:\Users\Raúl\Desktop\Adquisicion\Salida\DiscoUSB\USB.E13
+    C:\Users\Raúl\Desktop\Adquisicion\Salida\DiscoUSB\USB.E14
+    C:\Users\Raúl\Desktop\Adquisicion\Salida\DiscoUSB\USB.E15
+    C:\Users\Raúl\Desktop\Adquisicion\Salida\DiscoUSB\USB.E16
+    C:\Users\Raúl\Desktop\Adquisicion\Salida\DiscoUSB\USB.E17
+    C:\Users\Raúl\Desktop\Adquisicion\Salida\DiscoUSB\USB.E18
+    C:\Users\Raúl\Desktop\Adquisicion\Salida\DiscoUSB\USB.E19
+    C:\Users\Raúl\Desktop\Adquisicion\Salida\DiscoUSB\USB.E20
+    C:\Users\Raúl\Desktop\Adquisicion\Salida\DiscoUSB\USB.E21
+    C:\Users\Raúl\Desktop\Adquisicion\Salida\DiscoUSB\USB.E22
+    C:\Users\Raúl\Desktop\Adquisicion\Salida\DiscoUSB\USB.E23
+    C:\Users\Raúl\Desktop\Adquisicion\Salida\DiscoUSB\USB.E24
+    C:\Users\Raúl\Desktop\Adquisicion\Salida\DiscoUSB\USB.E25
+    C:\Users\Raúl\Desktop\Adquisicion\Salida\DiscoUSB\USB.E26
+    C:\Users\Raúl\Desktop\Adquisicion\Salida\DiscoUSB\USB.E27
+    C:\Users\Raúl\Desktop\Adquisicion\Salida\DiscoUSB\USB.E28
+    C:\Users\Raúl\Desktop\Adquisicion\Salida\DiscoUSB\USB.E29
+    C:\Users\Raúl\Desktop\Adquisicion\Salida\DiscoUSB\USB.E30
+    C:\Users\Raúl\Desktop\Adquisicion\Salida\DiscoUSB\USB.E31
+    C:\Users\Raúl\Desktop\Adquisicion\Salida\DiscoUSB\USB.E32
+    C:\Users\Raúl\Desktop\Adquisicion\Salida\DiscoUSB\USB.E33
+    C:\Users\Raúl\Desktop\Adquisicion\Salida\DiscoUSB\USB.E34
+    C:\Users\Raúl\Desktop\Adquisicion\Salida\DiscoUSB\USB.E35
+    C:\Users\Raúl\Desktop\Adquisicion\Salida\DiscoUSB\USB.E36
+    C:\Users\Raúl\Desktop\Adquisicion\Salida\DiscoUSB\USB.E37
+    C:\Users\Raúl\Desktop\Adquisicion\Salida\DiscoUSB\USB.E38
 
 Image Verification Results:
-  Verification started:  Wed Nov 11 12:07:06 2026 (2026-11-11T11:07:06Z)
-  Verification finished: Wed Nov 11 12:11:25 2026 (2026-11-11T11:11:25Z)
-  MD5 - Computed hash:             941a072ad85e1d5cc13cbbe5d4f83247 : verified
-  MD5 - Stored verification hash:  941a072ad85e1d5cc13cbbe5d4f83247 : verified
-  MD5 - Report hash:               941a072ad85e1d5cc13cbbe5d4f83247 : verified
-  SHA1 - Computed hash:            e40e3bc70ac29761157aea2b7e9b96a41b11b5e3 : verified
-  SHA1 - Stored verification hash: e40e3bc70ac29761157aea2b7e9b96a41b11b5e3 : verified
-  SHA1 - Report hash:              e40e3bc70ac29761157aea2b7e9b96a41b11b5e3 : verified
+  Verification started:  Wed Nov 11 15:58:52 2026 (2026-11-11T14:58:52Z)
+  Verification finished: Wed Nov 11 16:03:04 2026 (2026-11-11T15:03:04Z)
+  MD5 - Computed hash:             a1d9ae86a2dc3f6ea0461993a5ff3dae : verified
+  MD5 - Stored verification hash:  a1d9ae86a2dc3f6ea0461993a5ff3dae : verified
+  MD5 - Report hash:               a1d9ae86a2dc3f6ea0461993a5ff3dae : verified
+  SHA1 - Computed hash:            fb8f71dbd1f1f8482871b473a974e971e5cc63cd : verified
+  SHA1 - Stored verification hash: fb8f71dbd1f1f8482871b473a974e971e5cc63cd : verified
+  SHA1 - Report hash:              fb8f71dbd1f1f8482871b473a974e971e5cc63cd : verified
